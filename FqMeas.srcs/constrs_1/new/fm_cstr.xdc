@@ -22,3 +22,7 @@ set_property PACKAGE_PIN V5 [get_ports {seg_out[5]}]
 set_property PACKAGE_PIN U7 [get_ports {seg_out[6]}]
 set_property PACKAGE_PIN V4 [get_ports {seg_sel[2]}]
 set_property PACKAGE_PIN W4 [get_ports {seg_sel[3]}]
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports in]
+set_property PACKAGE_PIN J1 [get_ports in]

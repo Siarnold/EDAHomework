@@ -26,3 +26,4 @@ set_property PACKAGE_PIN W4 [get_ports {seg_sel[3]}]
 
 set_property IOSTANDARD LVCMOS33 [get_ports in]
 set_property PACKAGE_PIN J1 [get_ports in]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets in_IBUF]
